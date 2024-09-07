@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+background-color:#5858cc;
+}
+table, td {
+  border: 5px solid black;
+}
+.b1 {
+width:100px;
+border-radius:8px;
+background-color:#29f50a;
+font-size:20px;
+margin:10px;
+}
+.b2 {
+width:100px;
+border-radius:8px;
+background-color:#f50a0a;
+font-size:20px;
+margin:5px;
+}
+</style>
+</head>
+<body bgcolor="#141414">
+
+<center><h1>hi buddy!!!</h1>
+
+<table bgcolor="#e3e346" id="myTable">
+  <tr>
+    <b><td>No</td>
+    <td>Name</td>
+    <td>Password</td></b>
+  </tr>
+<tr>
+  <td>1</td>
+  <td>Facebook</td>
+  <td>sathish3421</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Brandrise.com</td>
+  <td>anikkahart@321</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Calligraphr.com</td>
+  <td>SAndhiya123</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>my.freenom.com</td>
+  <td>satdev.123</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Github.com</td>
+  <td>sathishkumarhearts123</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>guvi.in</td>
+  <td>coolbuddy!!!</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>cloud.ibm.in</td>
+  <td>skdevluv143</td>
+</tr>
+
+
+
+  
+</table>
+<br>
+
+<button class="b1" onclick="myCreateFunction()">Add</button></span>
+<button class="b2" onclick="myDeleteFunction()">Delete</button>
+
+<script>
+var count=7,si=7;
+
+function myCreateFunction() {
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(++count);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  var cell3 = row.insertCell(2);
+  cell1.innerHTML = ++si;
+  cell2.innerHTML = prompt("Name");
+  cell3.innerHTML = prompt("Password");
+}
+
+function myDeleteFunction() {
+  var del=prompt("which row wants to delete" );
+  count--;
+  si--;
+  document.getElementById("myTable").deleteRow(del);
+ 
+  
+  
+}
+</script>
+</center>
+</body>
+</html>

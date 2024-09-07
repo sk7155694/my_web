@@ -1,0 +1,4 @@
+﻿AuthType Basic
+AuthName "hi aloww"
+AuthuserFile /C:/Users/ELCOT/Desktop/my_web/.htpasswd
+require valid-user

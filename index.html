@@ -1,0 +1,761 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+  
+  <style>
+  * {
+  box-sizing: border-box;
+}
+  
+
+  .button {
+  	  background-color: #4CAF50;
+	  border:none;
+	  padding:15px 32px;
+	  text-align:center;
+	  text-decoration:none;
+	  display:inline-block;
+	  font-size: 16px;
+	  margin:4px 2px;
+	  cursor:pointer;
+  }
+
+  .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  
+
+
+
+</style>
+
+
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sathish Kumar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/836a943e18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  </head>
+  <body>
+  
+    <header>
+    <script type=text/javascript>
+    function pass()
+{
+    var s;
+    while (s!= "msec123")
+    {
+    s=prompt("please enter your password");
+    if (s=="msec123")
+    {
+    window.location.href="authcred.html"; //page to redirect if password entered is correct
+    }
+    else
+    {
+    alert("Incorrect password-Try again");
+    return;
+    }
+    }
+}
+</script>
+
+
+
+
+
+
+
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="index.html">
+              <img src="images/logo.png" alt="SK" />
+            </a>
+          </div>
+          <div class="burger-menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#landing-page">
+                <img
+                  src="images/profile-pic.png"
+                  alt="Sathish kumar"
+                  class="profile-pic nav-link"
+                />
+                <span class="caption nav-link">Sathish Kumar</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#awards" class="nav-link">Awards</a>
+            </li>
+            <li class="nav-item">
+              <a href="#licence" class="nav-link">licence</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+			      <li class="nav-item">
+              <a href="#online" class="nav-link">Online Course</a>
+            </li>
+			      <li class="nav-item">
+              <a href="#internship" class="nav-link">Internship</a>
+            </li>
+			      <li class="nav-item">
+              <a href="#certificates" class="nav-link">Certificates</a>
+            </li>
+			      <li class="nav-item">
+              <a href="#photos" class="nav-link">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/sk7155694/" target="_blank" class="nav-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/sathish-kumar-05925718b" target="_blank" class="nav-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100009312749210" target="_blank" class="nav-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+			
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="main-message">
+            <h2>Sathish Kumar<h2></br>
+            <h3>Full Stack Developer </h3></br>
+			      <h1>AWS Certified Solution Architect Associate</h1>
+	
+			
+			<p>Angular .Net core . Python . nodeJS . HTML . CSS . JavaScript </p></br>
+      <p>Sql . Postgresql . Big query . Redis </p></br>
+      <p>CI/CD . Kafka . Terraform . Git</p></br>
+      <p>AWS . Azure . GCP </p></br>
+      <p>Problem Solving </p></br>
+            <a href="Resume/Sathish Kumar.pdf" class="project-link" target="_blank"
+                ><i class="fas fa-download" aria-hidden="true"> Resume</i></a>
+        </div>
+            
+        </div>
+
+
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-img">
+            <img
+              src="images/profile-pic.png"
+              alt="Sathish Kumar"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-text-box">
+            <h2>About me</h2>
+            <p>
+              Sathish Kumar Vellaiyan</br>
+			  Full Stack Developer , Accenture</br>
+            </p>
+            <p>
+              My coding journey began with "Hello, World!" and evolved into a passion for crafting robust digital solutions.
+			 </br>As an AWS Certified Solutions Architect Associate, I blend my full-stack expertise with cloud architecture prowess.</br>
+			 I've shepherded applications from initial concept through to production deployment, managing the entire development lifecycle.</br>
+       From battling bugs to orchestrating cloud infrastructures and launching production-ready apps
+            </p>
+            <p>
+			 <p>Driven by creating impactful, scalable experiences, I'm ready to architect and bring your next big idea to life. Let's turn your vision into a robust, cloud-powered reality!<p> 
+
+       
+
+              
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      
+      <section id="experience" class="experience">
+        <!-- <div class="container"> -->
+          <div class="experience-title-heading">
+            <h2>Experience</h2>
+          </div>
+          <div class="service-tiers">
+            <div class="tier-item">
+              <h2>Accenture - Full Stack Developer</h2>
+              <p>Dec 2022 - Current </br></br>
+                • Spearheaded the development of a recruitment platform, employing Angular for front-end development, Python for backend, and PostgreSQL for the database. Implemented SOLID principles and developed RESTful APIs to ensure scalable and maintainable code architecture.</br></br>
+                • Wrote unit tests for the backend using JUnit and for the frontend using the Jest framework.</br></br>
+                • Implemented Apache Kafka with Change Data Capture (CDC) to efficiently transmit data to external APIs.</br></br>
+                • Utilized Node.js to develop microservices for data synchronization with BigQuery, ensuring efficient and reliable data processing and integration.</br></br>
+                • Orchestrated code deployments to AWS Lambda, optimizing infrastructure for scalability and performance.</br></br>
+                • Leveraged Terraform (IAC) to successfully deploy Cloud Functions and Pub/Sub services within the Google Cloud Platform (GCP).</br></br>
+                • Conducted a successful Proof of Concept (POC) on AWS Step Functions for cross-API integration, enhancing system efficiency.</br></br>
+                • Developed a POC for assessing candidate photo quality using Python and machine learning models, contributing to improved visual verification processes.</br></br>
+              </p>
+            </div>
+            <div class="tier-item">
+              <h2>Accenture - Front End Developer</h2>
+              <p>Sept 2021 - Dec 2022 </br></br>
+                  •  Developed and maintained scalable, dynamic web applications using Angular.</br></br>
+                  •  Integrated security features using Microsoft MSAL 2.0 to ensure secure authentication and authorization.</br></br>
+                  •  Successfully upgraded Angular applications to newer versions, ensuring compatibility and leveraging the latest features.</br></br>
+                  •  Achieved a 50% improvement in user interface responsiveness and performance through version upgrades.</br></br>
+                  •  Managed migration processes, efficiently replacing deprecated libraries with suitable alternatives.</br></br>
+                  •  Implemented comprehensive unit testing using Jasmine and Karma, achieving over 80% code coverage.</br></br>
+                
+              </p>
+            </div>
+          </div>
+        <!-- </div> -->
+      </br>
+      <hr />
+      </section>
+      <section id="projects" class="projects">
+        <div class="title-heading">
+          <h2>Awards</h2>
+          <p>these are some of my recent awards</p>
+        </div>
+        <div class="award-item">
+          <div class="award-img hass-margin-right">
+            <img src="images\Sathish Kumar Vellaiyan.jpg" />
+          </div>
+          <div class="project-description">
+            <h2>Ace Inspiring Innovator Award</h2>
+            <p>Awarded by Accenture, May 2024 </br>
+              I'm honored to have received the prestigious Ace Inspiring Innovator Award from Accenture in June 2024. This high-level company recognition is bestowed upon employees who demonstrate exceptional innovation and creativity in their work. </br> 
+              The award acknowledges my successful delivery of a new feature in Recuitment Application
+            </p>
+          </div>
+        </div>
+        <div class="award-item">
+          <div class="award-img hass-margin-right">
+            <img src="images\best-people.png" />
+          </div>
+          <div class="project-description">
+            <h2>Best People Award</h2>
+            <p>Awarded by Accenture, July 2023 </br>
+              Recognized for outstanding contributions in cultivating an exceptional workplace culture and fostering an environment where people thrive.</br> This prestigious award honors individuals who champion people-first values, drive employee engagement, and inspire others through exemplary leadership.
+            </p>
+          </div>
+        </div>
+      </br>
+      <hr />
+      </section>
+
+      <section id="licence" class="licence">
+        <div class="container">
+          <div class="title-heading">
+            <h2>licence</h2>
+            <p>
+              This are some of My licence/Certification
+            </p>
+          </div>
+          <div class="service-tiers">
+            <div class="tier-item">
+              <div class="aws">
+                <i class="fab fa-aws" aria-hidden="true"></i>
+              </div>
+              <h2>AWS Solution Architect - Associate</h2>
+              <p>AWS -
+                <a href="https://www.credly.com/badges/de790db5-1694-4271-a6d5-3df051a2b852/linked_in_profile" class="project-link" target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"> Show credential</i></a>
+              </br>
+                This credential demonstrates proficiency in architecting and deploying secure and robust applications on AWS infrastructure. It confirms my ability to define solutions using architectural design principles based on customer requirements.
+              </p></br>
+              <h3>Key Competencies: </h3> </br>
+              <p>
+                • Designing resilient architectures. </br>
+                • Implementing secure applications and architectures. </br>
+                • Deploying high-performing architectures. </br>
+                • Designing cost-optimized architectures.</br>
+              </p></br>
+              <h3>Areas of Expertise: </h3> </br>
+              <p>
+                • EC2, S3, RDS, Route 53, VPC, and other core AWS services. </br>
+                • AWS Well-Architected Framework. </br>
+                • Disaster recovery and business continuity strategies. </br>
+                • Application of AWS security features and tools.
+              </p>
+
+            </div>
+            <div class="tier-item">
+              <div class="icons8-azure"></div>
+              <h2>Microsoft Azure Fundamentals (AZ-900)</h2>
+              <p>Microsoft -
+                <a href="https://learn.microsoft.com/api/credentials/share/en-us/SathishKumar-1025/88C7D605597C558C?sharingId" class="project-link" target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"> Show credential</i></a>
+              </br>
+                The AZ-900 certification demonstrates a solid understanding of cloud computing principles and the core services offered by Microsoft Azure. It serves as an excellent starting point for those beginning their journey in cloud technologies or looking to validate their basic Azure knowledge.
+              </p></br>
+              <h3>Specific Knowledge Domains: </h3> </br>
+              <p>
+                • Compute services (VMs, containers, serverless computing). </br>
+                • Networking (VNets, VPN, ExpressRoute). </br>
+                • Storage solutions (Blob, File, Queue storage). </br>
+                • Azure database services.</br>
+                • Azure Active Directory and identity solutions</br>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="title-heading">
+          <h2>Projects</h2>
+          <p>these are some of my recent projects</p>
+        </div>
+
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images\OIP.jpg" />
+          </div>
+          <div class="project-description">
+            <h2>Recruitment Application For Accenture</h2>
+            <h3> Application Overview  : </h3>
+            </br><p>
+              This recruitment application serves as a centralized platform for managing all aspects of the hiring workflow, from job posting to candidate selection. It offers a user-friendly interface for both recruiters and applicants, enhancing efficiency and improving the overall recruitment experience.</p></br>
+              <h3>Application Features :  </h3> </br>
+              <p>
+              • Job Posting Management </br>
+              • Applicant Tracking System (ATS)</br>
+              • Candidate Evaluation</br>
+              • Reporting and Analytics</br>
+              • Integration Capabilities</br>
+              • Compliance and Data Protection 
+            </p></br>
+            <h3> Technical Specifications : </h3></br>
+            <p>
+              • Frontend : Angular, Html, CSS, JavaScript </br>
+              • Backend : Python, .Net, nodeJS, Kafka</br>
+              • Database : Sql, PostgreSQL, Big query, Redis </br>
+              • Hosting : AWS , GCP </br>
+            </p>
+            <a href="https://github.com/sk7155694/3_vs_3.git" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
+            >
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images\chess.jpg" />
+          </div>
+          <div class="project-description">
+            <h2>Mini Chess Console Application - 3 vs 3</h2>
+            <h3> Game Overview  : </h3>
+            </br><p>
+              This innovative game challenges players to outmaneuver each other on a compact board. The objective is twofold: be the first to arrange your coins in a winning pattern while simultaneously preventing your opponent from doing the same like tic tac toe instead just placing coins and also you can move your coins in any direction.</p> </br>
+              <h3>Technical Specifications  : </h3> </br>
+              <p>
+              • Developed using core Python, demonstrating proficiency in fundamental programming concepts </br>
+              • Efficient algorithms for move validation and win condition checking </br>
+              • Clear, user-friendly console interface for smooth gameplay
+            </p>
+            <a href="https://github.com/sk7155694/3_vs_3.git" class="project-link" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
+            >
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-description has-margin-right">
+            <h2>College Management Information System</h2>
+            <p>
+              A comprehensive web-based solution designed to streamline data management across all departments of a college. This robust application offers a centralized platform for efficient information handling, access control, and administrative oversight.
+            </p></br>
+            <h3>Key Features  : </h3> </br>
+            <p>
+              • Department-specific modules.</br>
+              • Role-based access control.</br>
+              • Admin superuser capabilities.</br>
+              • Data maintenance.
+            </p></br>
+            <h3>Technical Specifications  : </h3> </br>
+            <p>
+              • Frontend: Developed using HTML, CSS for a clean, intuitive user interface</br>
+              • Backend: Powered by PHP for server-side logic and dynamic content generation</br>
+              • Database: Utilizes SQL for efficient data storage and retrieval
+            </p>
+            <a href="https://github.com/sk7155694/Management-Information-System.gi" class="project-link" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"> View Code</i>
+            </a>
+          </div>
+          <div class="project-img">
+            <img src="images/mis.jpg" />
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images/scripto.png" />
+          </div>
+          <div class="project-description">
+            <h2>Scripto Machine</h2>
+            <p>
+              The Scripto Machine is a functional model that can transcribe text and create drawings based on user input. Its ability to bridge digital commands with physical writing showcases the practical applications of Arduino technology in automating artistic and clerical tasks.
+            </p></br>
+            <h3>Key Features  : </h3> </br>
+            <p>
+              • Text Writing: Accurately reproduces inputted text on paper.</br>
+              • Drawing Capability: Creates drawings based on programmed instructions.</br>
+              • Arduino-Powered: Utilizes Arduino R3 for precise control and execution.</br>
+              • User Interface: Integrates with ben box application for easy input and control.
+            </p></br>
+            <h3>Technical Specifications  : </h3> </br>
+            <p>
+              • Microcontroller: Arduino R3.</br>
+              • Software Interface: ben box application.</br>
+              • Arduino-Powered: Utilizes Arduino R3 for precise control and execution.</br>
+              • Hardware Components: Stepper motor, servo motor.
+            </p></br>
+            <h3>Achievements  : </h3> </br>
+            <p>
+              • Showcased as a working model at Asthra2K19 symposium.</br>
+              • Participated in multiple inter-college project competitions.</br>
+              • Received awards in various project contests.
+            </p></br>
+            <a href="images/machine.mp4" class="project-link" target="_blank"
+              ><i class="fa fa-youtube" aria-hidden="true"> working video</i></a
+            >
+          </div>
+        </div>
+        <hr />
+      </section>
+	  <section id="internship" class="internship">
+        <div class="container">
+          <div class="title-heading">
+            <h2>Internship</h2>
+            <p>
+              This are some of companys
+            </p>
+          </div>
+          <div class="service-tiers">
+            <div class="tier-item">
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <h2>Codebind Technology</h2>
+              <p>
+                It was a 2 week Internship where we learned the basics of Html,Css and Javascript and did a Android workshop.
+				And finally we did project of complete website.
+              </p>
+            </div>
+            <div class="tier-item">
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+              <h2>Enteleia Solutions</h2>
+              <p>
+                It was a 2week internship here we Learned basics of Python such as data types,object and data structure,modules and packages etc.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        <hr />
+      </section>
+
+
+	  <section id="online" class="online">
+        <div class="container">
+          <div class="title-heading">
+            <h2>Online Course</h2>
+            <p>
+              This are some of My online Course
+            </p>
+          </div>
+          <div class="service-tiers">
+            <div class="tier-item">
+              <i class="fab fa-python" aria-hidden="true"></i>
+              <h2>Python</h2>
+              <p>Udemy</br>
+                In this online Course I learned about basics and advance in Python such as functios,data structure,modules,packages etc 
+				I used learn Python with Jupyter Notebooks .
+              </p>
+            </div>
+            <div class="tier-item">
+              <i class="fab fa-aws" aria-hidden="true"></i>
+              <h2>Amazon Web Service</h2>
+              <p>Udemy</br>
+			  I am  currently preparing for Amazon Associate Exam so I took this Course from this I learned to create instances,create  S3 bucket, Relational Database and
+			  get knowledge about IAM, S3 Policies, Securities,Encrytion etc
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        <hr />
+      </section>
+
+
+
+
+
+	  <center><h1>Certificates</h1></center>
+	  <section id="certificates" class="certificates">
+      <div class="container">   
+        <div class="gallery" >
+          <a target="_blank" href="images/AWS Certified Solutions Architect - Associate certificate.jpg">
+          <img src="images/AWS Certified Solutions Architect - Associate certificate.jpg" alt="certificate" border="5" width="600" height="400">
+          </a>
+          <div class="desc" ><center><h2>AWS Certified Solutions Architect - Associate</h2></center></div>
+        </div>
+      </div>
+      <div class="container">   
+			  <div class="gallery" >
+            <a target="_blank" href="images/Credentials - sathishkumar-1025 _ Microsoft Learn-1.jpg">
+            <img src="images/Credentials - sathishkumar-1025 _ Microsoft Learn-1.jpg" alt="certificate" border="5" width="600" height="400">
+            </a>
+            <div class="desc" ><center><h2>Microsoft Azure Fundamentals (AZ-900)</h2></center></div>
+        </div>
+      </div>
+	    <div class="container">
+            <div class="gallery">
+             <a target="_blank" href="images/easwari-1.jpg">
+              <img src="images/easwari-1.jpg" alt="certificates" border="5" width="600" height="400">
+             </a>
+             <div class="desc"><center><h2>First Prize in Paper Presentation In our College</h2></center></div>
+            </div>
+      </div>
+		  </br></br>  
+      <div class="container">   
+        <div class="gallery" >
+          <a target="_blank" href="images/easwari-2.jpg">
+          <img src="images/easwari-2.jpg" alt="certificate" border="5" width="600" height="400">
+          </a>
+          <div class="desc" ><center><h2>First Prize in Project Presentation</br>In Sri Venkateswara College of Engineering</h2></center></div>
+        </div>
+			  <div class="gallery" >
+            <a target="_blank" href="images/easwari-3.jpg">
+            <img src="images/easwari-3.jpg" alt="certificate" border="5" width="600" height="400">
+            </a>
+            <div class="desc" ><center><h2>Second Prize in Project Presentation</br>In SRM Easwari Engineering College</h2></center></div>
+        </div>
+      </div>
+		<div class="container">   
+      <div class="gallery" >
+        <a target="_blank" href="images/easwari-4.jpg">
+        <img src="images/easwari-4.jpg" alt="certificate" border="5" width="600" height="400">
+        </a>
+        <div class="desc" ><center><h3>certificate of Internship Completion</br>In Codebind Techologies</h3></center></div>
+      </div>
+			<div class="gallery" >
+          <a target="_blank" href="images/easwari-5.jpg">
+          <img src="images/easwari-5.jpg" alt="certificate" border="5" width="600" height="400">
+          </a>
+          <div class="desc" ><center><h3>certificate ofInternship Completion</br>In Enteleia Solutions</h3></center></div>
+      </div>
+		
+			<div class="gallery" >
+          <a target="_blank" href="images/easwari-6.jpg">
+          <img src="images/easwari-6.jpg" alt="certificate" border="5" width="600" height="400">
+          </a>
+          <div class="desc" ><center><h3>Certificate of Industrial Visit  </br>In Spring Net Technologies</h3></center></div>
+      </div>
+
+			<div class="gallery" >
+        <a target="_blank" href="images/easwari-7.jpg">
+        <img src="images/easwari-7.jpg" alt="certificate" border="5" width="600" height="400">
+        </a>
+        <div class="desc" ><center><h3>Certifiacte of Project Completion</br>In Codebind Technologies</h3></center></div>
+      </div>
+    </div>
+    </br></br>
+		<hr />
+  </section>
+	</br></br>
+          
+         
+
+	  <section id="photos" class="photos">
+          
+        <div class="container">
+         <map name="pwd"> 
+         <area shape="circle" coords="123,142,10" alt="index.html" onclick="pass()">
+         </map>
+          <div class="title-heading">
+            <h2>Photos </h2>
+            
+          </div>
+
+		  <div class="row"> 
+  <div class="column">
+    <img src="images/imt1.jpg" style="width:100%">
+    <img src="images/imt2.jpg" style="width:100%">
+    <img src="images/imt3.jpg" style="width:100%">
+	<img src="images/imt13.jpg" style="width:100%">
+	<img src="images/imt14.jpg" style="width:100%">
+	<img src="images/imt15.jpg" style="width:100%">
+	<img src="images/imt21.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/imt4.jpg"  style="width:100%">
+    <img src="images/imt5.jpg" style="width:100%">
+    <img src="images/imt6.jpg" style="width:100%">
+	 <img src="images/imt16.jpg" style="width:100%">
+	 <img src="images/imt17.png" style="width:100%">
+	 <img src="images/imt18.jpg" style="width:100%">
+
+  </div>  
+  <div class="column">
+    <img src="images/imt7.png" style="width:100%">
+    <img src="images/imt8.jpg" style="width:100%">
+     <img src="images/imt9.jpg" usemap="#pwd" width="300" height="400">
+
+	 <img src="images/imt19.png" style="width:100%">
+	 <img src="images/imt20.jpg" style="width:100%">
+	 
+
+  </div> 
+  
+
+
+
+  <div class="column">
+    <img src="images/imt10.jpg" style="width:100%">
+    <img src="images/imt11.jpg" style="width:100%">
+     <img src="images/imt12.jpg" style="width:100%">
+	 <img src="images/imt22.jpg" style="width:100%">
+	 <img src="images/imt23.jpg" style="width:100%">
+	 <img src="images/imt24.jpg" style="width:100%">
+	 <img src="images/imt25.jpg" style="width:100%">
+
+  </div>  
+ 
+</div>
+          
+
+
+
+        </div>
+        <hr />
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+		<p> Eagerly waiting for an opportuniity to utilize my acquired skills and knowledge to gain practical exposure and to know the working of the company<p>
+        <p>
+          I'd love if you reached out to me. Even if it's just to say "Hey!".
+          Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+        </p>
+       
+        <div class="container">
+          <p>
+            <a href="mailto:sk7155694@gmail.com"
+              ><i class="fas fa-envelope-open"></i> sk7155694@gmail.com</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/sk7155694/" target="_blank"
+              ><i class="fab fa-github"> GitHub</i></a
+            >
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/sathish-kumar-05925718b" target="_blank"><i class="fab fa-linkedin"> Linkedin</i></a>
+          </p>
+          <!-- <p>
+            <a href="https://www.facebook.com/profile.php?id=100009312749210" target="_blank"
+              ><i class="fab fa-facebook"> Facebook</i></a
+            >
+          </p> -->
+        </div>
+        <hr />
+      </section>
+      <footer>
+        <div class="footer-nav">
+          <a href="#landing-page" class="footer-nav-link">Home</a>
+          <a href="#about" class="footer-nav-link">About</a>
+          <a href="#projects" class="footer-nav-link">Projects</a>
+		  <a href="#online" class="footer-nav-link">Online Course</a>
+		   <a href="#internship" class="footer-nav-link">Internship</a>
+		   <a href="#certificates" class="footer-nav-link">Certificates</a>
+		   <a href="#photos" class="footer-nav-link">Photos</a>
+          <a href="#contact" class="footer-nav-link">Contact</a>
+        </div>
+        <div class="footer-coded-by">
+          <p>
+              Sathish Kumar &copy; 2024
+          </p>
+          <p>Built with HTML, CSS and JavaScript</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/sk7155694/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sathish-kumar-05925718b" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <!-- <a href="https://www.facebook.com/profile.php?id=100009312749210" target="_blank"><i class="fab fa-facebook"></i></a> -->
+        </div>
+      </footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
